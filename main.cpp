@@ -16,8 +16,7 @@ int main(){
     cout << "Answer the following questions to provide information about your favourite book." << endl;
 
     //declare variables
-    string bookTitle;
-    string authorName;
+    string bookTitle,authorName;
     int pubYear;
 
     //ask user for input of title
@@ -35,7 +34,7 @@ int main(){
     //display the information 
     cout << "So, your favourite book is: " << bookTitle <<  "\n";
     cout << "Which was written by: " << authorName << "\n";
-    cout << "It was published in the year: " << pubYear << endl;
+    cout << "And was published in the year: " << pubYear << endl;
 
     return 0;
 }
